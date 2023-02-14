@@ -1,0 +1,26 @@
+{
+  "name": "cns-padi",
+  "version": "1.0.0",
+  "description": "CNS Padi Transport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CNSCP/cns-padi.git"
+  },
+  "keywords": [
+    "cns",
+    "sdk"
+  ],
+  "author": "ian@padi.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CNSCP/cns-padi/issues"
+  },
+  "homepage": "https://github.com/CNSCP/cns-padi#readme",
+  "dependencies": {
+    "mqtt": "^4.3.7"
+  }
+}
