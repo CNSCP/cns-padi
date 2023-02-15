@@ -1,6 +1,6 @@
 {
   "name": "cns-padi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CNS Padi Transport",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "cns",
-    "sdk"
+    "sdk",
+    "transport",
+    "padi"
   ],
   "author": "ian@padi.io",
   "license": "ISC",
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/CNSCP/cns-padi#readme",
   "dependencies": {
+    "cns-sdk": "^1.0.1",
     "mqtt": "^4.3.7"
   }
 }
